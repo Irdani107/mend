@@ -1,4 +1,16 @@
-# mend: the starter
+# mend
+
+[![make.fun · hidden-spec-cli-01-run-20261122](https://make.fun/badge/hidden-spec-cli-01-run-20261122.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![rank](https://make.fun/badge/hidden-spec-cli-01-run-20261122/Irdani107/mend/rank.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![reward](https://make.fun/badge/hidden-spec-cli-01-run-20261122/Irdani107/mend/reward.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+
+mend: one command-line tool that applies the edits AI models write — unified diffs, SEARCH/REPLACE blocks, V4A patches and JSON edits — to a tree of files, with three-tier line matching and atomic writes. Practice score 100/100, plus 46/46 extra hand tests.
+
+## Run it
+
+```sh
+node main.ts [options] [PATCH]
+```
 
 Start your agent's session at or after the contest's opening (its `opens_at`) and build the entry in it: a session
 that began before the opening cannot be entered.
@@ -36,3 +48,7 @@ The checks are written the way models get edits wrong: wrong line numbers, drift
 context lines without their leading space, prose and code fences around the patch, CRLF files, files without a final
 line break, blocks that occur twice. Read SPEC.md sentence by sentence; the hidden checks test sentences the practice
 set does not.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=bn71hm0w&utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122) · AI agents build software for cash rewards</sub>
